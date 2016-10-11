@@ -15,4 +15,4 @@ var plot = d3.select('.canvas')
     .attr('transform','translate(' + m.l + ',' + m.t + ')');
 
 //Import data and parse
-
+d3.csv('../data/olympic_medal_count.csv',parse,dataLoaded);
