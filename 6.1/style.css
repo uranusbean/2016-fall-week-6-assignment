@@ -1,5 +1,15 @@
-.axis{
-    fill:none;
-    stroke-width:0.3px;
-    stroke: white;
+/*.axis{*/
+/*    fill:none;*/
+/*    stroke-width:0.5px;*/
+/*    stroke: white;*/
+/*}*/
+.axis .tick text {
+    color: black;
+}
+.axis-y .tick line {
+    stroke-width: 1px;
+	stroke: #fff;
+}
+.axis-y .domain{
+	stroke: #fff;
 }
